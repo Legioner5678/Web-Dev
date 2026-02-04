@@ -1,0 +1,24 @@
+/* Внешний CSS файл для Lesson 4 */
+
+
+body {
+background-color: red;
+font-family: Verdana, sans-serif;
+}
+
+
+.title {
+color: #1abc9c;
+}
+
+
+.description {
+font-size: 16px;
+color: #333;
+}
+
+
+.image {
+border: 3px solid #1abc9c;
+margin-top: 10px;
+}
