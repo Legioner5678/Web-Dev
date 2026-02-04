@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* Login card */
+.login-card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-family: cursive;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+/* Login button */
+.login-btn {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #318ce7;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider span {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+/* Links */
+.facebook-login {
+    display: block;
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.facebook-login:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Sign up card */
+.signup-card {
+    width: 350px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.signup-card a {
+    color: #3897f0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-card a:hover {
+    text-decoration: underline;
+}
