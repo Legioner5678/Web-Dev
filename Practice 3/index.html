@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">MySocial</h1>
+</header>
+
+<main class="profile-container">
+
+    <!-- Profile header -->
+    <section class="profile-header">
+    <img src="alen_photo.jpg"
+         alt="Photo of Alen Augambayev"
+         class="profile-photo">
+       <div class="profile-info">
+            <div class="top-row">
+                <h2>Alen Augambayev</h2>
+                <button class="edit-btn">Edit Profile</button>
+            </div>
+
+            <p class="bio">
+                Student at Kazakh-British Technical University.
+                Information Systems major at the School of Information Technology and Engineering.
+                Interested in video games, anime, manga, and focused on completing my studies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Additional information -->
+   <section class="details">
+    <div class="detail-circle">
+        <h3>Education</h3>
+        <p>Kazakh-British Technical University</p>
+    </div>
+
+    <div class="detail-circle">
+        <h3>City</h3>
+        <p>Ust-Kamenogorsk</p>
+    </div>
+
+    <div class="detail-circle">
+        <h3>Interests</h3>
+        <p>Video games, Anime, Manga</p>
+    </div>
+</section>
+
+    <!-- Edit profile form -->
+    <section class="edit-section">
+        <h3>Edit Profile</h3>
+
+        <form class="edit-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="bio">Bio</label>
+            <textarea id="bio" placeholder="Update your bio"></textarea>
+
+            <button type="submit">Save Changes</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 MySocial. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
